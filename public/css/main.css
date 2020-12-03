@@ -1,0 +1,96 @@
+body,
+html {
+  background-color: #f5f5f5;
+}
+h1 {
+  font-size: 3rem;
+}
+.traffic-item {
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.traffic-item__left-wrap,
+.traffic-item__right-wrap {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.traffic-item__right-wrap {
+  flex-grow: 1;
+}
+.traffic-item__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  font-size: 1.7rem;
+  color: white;
+  margin-right: 20px;
+}
+.class-type-icon {
+  text-shadow: 0px 0px 2px #000;
+}
+.traffic-item-timestamp {
+  width: 180px;
+  font-size: 20px;
+  margin-right: 50px;
+}
+.traffic-item-timestamp i {
+  margin-right: 10px;
+}
+.traffic-item__speed {
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 0 15px;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  text-shadow: 0 0 5px grey;
+}
+.car-number {
+  display: flex;
+  margin-left: auto;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.car-number__left-wrap {
+  display: flex;
+  align-items: baseline;
+  padding: 0 4px;
+}
+.car-number__letters {
+  padding: 0 2px;
+  font-size: 14px;
+}
+.car-number__digits {
+  padding: 0 2px;
+}
+.car-number__region {
+  width: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid black;
+}
+.filter {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+.filter__title {
+  margin-bottom: 0.5rem;
+}
